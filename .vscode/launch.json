@@ -1,0 +1,23 @@
+{
+    "configurations": [{
+            "type": "java",
+            "name": "Spring Boot-PhotoRestApiApplication<photo-rest-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.soa_rest.PhotoRestApiApplication",
+            "projectName": "photo-rest-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProductRestApiApplication<photo-rest-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.soa_rest.ProductRestApiApplication",
+            "projectName": "photo-rest-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
